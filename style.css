@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    font-family: 'Poppins', sans-serif;
+    padding-inline: 4rem;
+    color: #FFF2E7;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    border-bottom: 0.5px solid #FFF2E7;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+li {
+    display: inline-flex;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF2E7;
+}
+
+a:hover {
+    color: rgb(0, 140, 255);
+    transition: 0.3s all;
+}
+
+.content-navbar{
+    display: flex;
+}
+
+.content-navbar .title-navbar{
+    margin: auto 0 auto 5px;
+    font-size: 26px;
+}
+
+.content-navbar img{
+    height: 50px;
+    width: 50px;
+}
+
+/* MAIN */
+
+.main-content {
+    margin: 3rem 0;
+    padding: 2rem 0;
+}
+
+.main-content {
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+.text-content {
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+.title-content {
+    text-align: center;
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.subtitle-content {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.text-content .btn-content {
+    display: flex;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    background-color: #FFF2E7;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #2F2325;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 180px;
+    height: 60px;
+    border: none;
+}
+
+.btn-content:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.main-content img {
+    width: 400px;
+}
+
+/* ========= */
+
+.secondary-content {
+    border-top: 0.5px solid #FFF2E7;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+}
+
+.sec-title-content {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.sec-subtitle-content {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* ========= */
+
+.footer {
+    border-top: 0.5px solid #FFF2E7;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.footer img {
+    margin-top: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+/* CONTACT  */
+
+.contact-information {
+    justify-content: center;
+    margin: 2rem 0;
+    display: flex;
+}
+
+.information {
+    border-bottom: 2px solid #FFF2E7;
+    padding-bottom: 0.2rem;
+    font-size: 2rem;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact-base {
+    flex-direction: column;
+    padding: 0 20px;
+    display: flex;
+    width: 50%;
+}
+
+.contact-base .contact-title {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.contact-base p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.contact-base .contact-subtitle {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.contact-form {
+    border-left: 2px solid #FFF2E7;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    width: 50%;
+}
+
+.contact-form .contact-input {
+    width: 400px;
+    height: 50px;
+}
+
+.contact-form .checkbox {
+    margin: auto;
+}
+
+#name,
+#email,
+#telephone,
+#message {
+    resize: none;
+    padding: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    background-color: rgb(34, 34, 34);
+    border-bottom: 1px solid #FFF2E7;
+}
+
+#checkbox {
+    width: 50px;
+}
+
+.button button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(34, 34, 34);
+    border: 2px solid #FFF2E7;
+}
+
+.button button:hover {
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+/* SOCIAL */
+
+.social h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.social img {
+    cursor: pointer;
+    margin: 0 4px;
+    height: 30px;
+    width: 30px;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+}
